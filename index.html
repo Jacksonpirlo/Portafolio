@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- LOCAL -->
+    <link rel="stylesheet" href="./css/style.css">
+    <!-- GOOGLE FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <!-- BOOTSTRAP5 -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <title>Portafolio</title>
+</head>
+<body>
+    <div id="loader" class="center"></div>
+   <nav>
+    <span>JF</span>
+
+        <div class="dropdown-init">
+            <i class="bi-moon-fill" id="dark"></i>
+            <div class="dropdown-container">
+                <h3 data-section="navbar" data-value="title">Idioma</h3>
+                <ul id="flags-container">
+                    <li class="flags-item" data-language="es"><img src="./assets/img/spain.png" alt=""></li>
+                    <li class="flags-item" data-language="en"><img src="./assets/img/unitedstates_flags_flag_8833.png" alt=""></li>
+                    <li class="flags-item" data-language="ch"><img src="./assets/img/china_flags_flag_9028.png" alt=""></li>
+                </ul>
+            </div>
+        </div>
+   </nav>
+
+ <center>
+   <header>
+   <div class="presentation">
+        <img src="./assets/img/Yo.jpeg" width="100px" alt="Imagen del Autor">
+        <h2 data-section="Profile" data-value="nombre">Hola! Soy <span class="presentation-span">Jackson FLorez</span></h2>
+        <h3 data-section="Profile" data-value="rol">Desarrollador web <span class="presentation-span">(Front-end JR)</span></h3>
+   </div>
+
+    <div class="description">
+        <h2 data-section="Profile" data-value="title">Sobre mí</h2>
+        <p data-section="Profile" data-value="descripcion">Hola! Pues te cuento... Empecé en el desarrollo web hace un año comenzando con html, css y luego Javascript;
+            Me enfoque en realizar muchos proyectos y paginas web para mejorar mi logica y estetica, despues de eso me centré al 100%
+            con Javascript y asi logré aprender mucho sobre el lenguaje hasta el momento. 
+        </p>
+    </div>
+
+    <div class="nav">
+        <span class="nav-container">
+            <span><a href="#idiomas"><i class="bi bi-translate" data-section="menu" data-value="idiomas"></i> </a></span>
+            <span><a href="#tecnologias"><i class="bi bi-code-slash" data-section="menu" data-value="tecnologias"></i> </a></span>
+            <span><a href="#proyectos"><i class="bi bi-folder-fill" data-section="menu" data-value="proyectos"></i> </a></span>
+            <span><a href="#contactos"><i class="bi bi-telephone-plus" data-section="menu" data-value="contactame"></i> </a></span>
+        </span>
+    </div>
+
+    <div class="idiomas" id="idiomas">
+        <h3 data-section="sectionIdiomas" data-value="title">Idiomas</h3>
+        <div class="idiomas-items element">
+            <div class="english item">
+                <h4 data-section="sectionIdiomas" data-value="EnTitleEn">Ingles (A2)</h4>
+                <p data-section="sectionIdiomas" data-value="descripcionEn">Con conocimientos básicos del idioma; Soy capaz de comprender frases y expresiones de uso frecuente, como ocupación y comunicación en tareas rutinarias y sencillas.</p>
+            </div>
+
+            <div class="Chinese item">
+                <h4 data-section="sectionIdiomas" data-value="EnTitleCh">Chino (HSK2)</h4>
+                <p data-section="sectionIdiomas" data-value="descripcionCh">Con 2 años el idioma; Me desempeño en un nivel intermedio, manteniendo una conversación básica y sólida, esto me ha ayudado mucho en la comprensión y cultura del país así como su estructura gramatical.</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="technology element" id="tecnologias">
+        <h4 data-section="tecnologias" data-value="title">Tecnologías</h4>
+        <div class="technology-items">
+            <div class="HTML-item"><i class="bi bi-filetype-html bi-font html"></i></div>
+            <div class="CSS-item"><i class="bi bi-filetype-css bi-font css"></i></div>
+            <div class="JS-item"><i class="bi bi-filetype-js bi-font js"></i></div>
+            <div class="Bootstrap-item"><i class="bi bi-bootstrap bi-font bootstrap"></i></div>
+            <div class="git-item"><i class="bi bi-git bi-font git"></i></div>
+            <div class="git-item"><i class="bi bi-github bi-font gitHub" id="gitHubDark"></i></div>
+        </div>
+    </div>
+
+    <div class="projects element" id="proyectos">
+        <h3 data-section="proyectos" data-value="title">Proyectos</h3>
+        <div class="projects-items">
+            <h5 data-section="proyectos" data-value="itemTitle1">Pagina web de una papelería</h5>
+            <a href="https://jacksonpirlo.github.io/Papeleria-G-and-A/
+            " target="_blank"><img src="./assets/img/p-1.jpeg" width="200px" alt=""></a>
+            <p data-section="proyectos" data-value="descripcion1">La creación de este sitio web me ayudó a mejorar mis conocimientos tanto en mobil-first como en <span>css</span>; se me presentaron algunos problemas al usar flex, pero gracias a
+                 stack Overflow y su documentación logré resolver estos problemas.</p>
+        </div>
+
+        <div class="projects-items">
+            <h5 data-section="proyectos" data-value="itemTitle2">Calculadora</h5>
+            <a href="https://jacksonpirlo.github.io/Calculadora/" target="_blank"><img src="./assets/img/calculadora.jpeg" width="200px" alt=""></a>
+            <p data-section="proyectos" data-value="descripcion2">Con este proyecto reforcé muchos de mis conocimientos en <span>Javascript</span> así como manipulación DOM y gestión de funciones.</p>
+        </div>
+
+        <div class="projects-items">
+            <h5 data-section="proyectos" data-value="itemTitle3">Pagina web de perritos aleatorios</h5>
+            <a href=" https://jacksonpirlo.github.io/Random-Dogs/" target="_blank"><img src="./assets/img/dogApi.jpeg" width="200px" alt=""></a>
+            <p data-section="proyectos" data-value="descripcion3">En este proyecto aprendí mucho sobre async y await, consumo de APIs con fetch y sus metodos HTTP: GET, POST, DELETE, PUT y PACTH</p>
+        </div>
+
+        <div class="projects-items">
+            <h5 data-section="proyectos" data-value="itemTitle4">Login</h5>
+            <a href="https://jacksonpirlo.github.io/login/" target="_blank"><img src="./assets/img/login.jpeg" width="200px" alt=""></a>
+            <p data-section="proyectos" data-value="descripcion4">Este login fue con 100% css los hice para pulir mis conocimientos en maquetación, haciendo algunos efectos y cambios de letra.</p>
+        </div>
+    </div>
+
+    <div class="contact" id="contactos">
+        <h2 data-section="redesYContactos" data-value="title">Mis redes y contactos</h2>
+        <div class="redes-items">
+           <a href="https://www.instagram.com/jf_cube/" target="_blank"><i class="bi bi-instagram dark-mod"></i></a>
+           <a href="https://wa.me/3001182542" target="_blank"> <i class="bi bi-whatsapp dark-mod"></i></a>
+           <a href="mailto:jacksonflorezp@gmail.com?subject=Contacto por portafolio" target="_blank"> <i class="bi bi-envelope-at dark-mod"></i></a>
+           <a href="https://www.linkedin.com/in/jackson-florez-b19a29286/" target="_blank"> <i class="bi bi-linkedin dark-mod"></i></a>
+        </div>
+    </div>
+
+    <footer>
+        <div>JackJack_01 © | 2024</div>
+       </footer>
+   </header>
+   </center>
+
+    <script type="module" src="./js/main.js"></script>
+</body>
+</html>

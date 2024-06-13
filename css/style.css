@@ -1,0 +1,318 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#loader {
+            border: 12px solid #f3f3f3;
+            border-radius: 50%;
+            border-top: 12px solid #444444;
+            width: 70px;
+            height: 70px;
+            animation: spin 1s linear infinite;
+        }
+       .center {
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            margin: auto;
+        }
+        @keyframes spin {
+            100% {
+                transform: rotate(360deg);
+            }
+        }
+
+body {
+    background-color: #fff;
+}
+
+body.dark-mode {
+    background-color: #111111;
+    color: #fff;
+}
+
+html {
+    font-family: "Noto Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    font-variation-settings:"wdth" 100;
+    font-size: 70.5%;
+    scroll-behavior: smooth;
+}
+
+nav {
+    display: flex;
+    padding: 1em;
+    justify-content: space-between;
+}
+
+nav .dropdown img {
+    width: 50px;
+    height: 50px;
+}
+
+nav .dropdown-init i {
+    font-size: 20px;
+}
+
+nav span {
+    font-size: 20px;
+}
+
+.dropdown-init {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.dropdown-init .dropdown-container {
+    position: relative;
+    margin: 5em;
+    margin-top: .5em;
+}
+
+.dropdown-container ul {
+    position: absolute;
+    max-height: 0px;
+    overflow: hidden;
+    transition: all 1s ease;
+}
+
+.dropdown-init i {
+    margin-right: 1em;
+}
+
+.dropdown-init h3 {
+    cursor: pointer;
+}
+
+.dropdown-container:hover ul, .dropdown-container ul.show {
+    position: absolute;
+    max-height: 300px;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.dropdown-container ul li img {
+    width: 40px;
+    height: 40px;
+}
+
+header {
+    max-width: 400px;
+}
+
+/* Seccion 1 */
+
+.presentation {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 3em;
+    padding: 15px;
+    /* background-color: #111;
+    color: #fff; */
+}
+
+.presentation img {
+    clip-path: circle(55%);
+    margin: 1.5em;
+}
+
+.presentation .presentation-span {
+    text-decoration-line:underline;
+    text-decoration-color: #f00;
+}
+
+/* Seccion 2 */
+
+.description {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: 1em;
+}
+
+.nav {
+    display: flex;
+    justify-content: center;
+    background-color: #f00;
+    color: #fff;
+    margin: 2.5em;
+}
+
+.nav .nav-container {
+    margin: 1em;
+}
+
+.nav .nav-container span {
+    margin: .6px;
+    text-decoration-line:underline;
+    text-decoration-color: rgb(24, 23, 23);
+    font-size: 10px;
+    cursor: pointer;
+}
+
+.nav .nav-container span a {
+    color: #111;
+    text-decoration:transparent;
+}
+
+.nav .nav-container span i {
+    margin: 3px;
+    color: #fff;
+}
+
+/* Seccion 3 */
+
+.idiomas {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 1em;
+}
+
+.idiomas h3 {
+    text-decoration-line:underline;
+    text-decoration-color: rgb(0, 0, 0);
+}
+
+.idiomas .idiomas-items .item h4 {
+    margin: 10px;
+    text-decoration-line:underline;
+    text-decoration-color: #f00;
+}
+
+.idiomas .idiomas-items .item {
+    margin: 20px;
+}
+
+/* Seccion 4 */
+
+.technology {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.technology h4 {
+    text-decoration-line:underline;
+    text-decoration-color: #f00;
+    margin-bottom: 15px;
+}
+
+.technology .technology-items {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin: 1em;
+    gap: 2em;
+}
+
+.technology .technology-items .bi-font {
+    font-size: 40px;
+}
+
+.technology .technology-items .html {
+    color: rgb(255, 60, 0);
+}
+
+.technology .technology-items .css {
+    color: rgb(0, 60, 255);
+}
+
+.technology .technology-items .js {
+    color: rgb(230, 226, 0);
+}
+
+.technology .technology-items .bootstrap {
+    color: rgb(140, 0, 255);
+}
+
+.technology .technology-items .git {
+    color: rgb(255, 115, 0);
+}
+
+.technology .technology-items .gitHub {
+    color: rgb(0, 0, 0);
+}
+
+
+/* Seccion 5 */
+
+.projects {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    margin: 2em;
+}
+
+.projects h3 {
+    margin-bottom: 15px;
+    text-decoration-line:underline;
+    text-decoration-color: #f00;
+}
+
+.projects .projects-items {
+    margin: 20px;
+    padding: 1em;
+    box-shadow: 1px 1px 20px #f00;
+}
+
+.projects-items h5 {
+    margin-bottom: 5px;
+}
+
+.projects-items img {
+    margin-bottom: 5px;
+}
+
+/* Seccion 6 */
+
+.contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.contact h2 {
+    text-decoration-line:underline;
+    text-decoration-color: #f00;
+}
+
+.contact .redes-items {
+   margin: 15px;
+}
+
+.redes-items i {
+    margin: 8px;
+    font-size: 15px;
+}
+
+.redes-items a {
+    color: #111;
+}
+
+/* Footer */
+
+footer {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 10px;
+    background-color: #f00;
+    color: #fff;
+}

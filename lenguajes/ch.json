@@ -1,0 +1,54 @@
+{
+    "navbar": {
+        "title":"语言"
+    },
+
+    "Profile": {
+        "nombre":"您好我是 Jackson Florez",
+        "rol": "网页开发人员（前端 JR)",
+        "title":"关于我",
+        "descripcion":"你好！好吧，让我告诉你......我一年前开始做Web开发, 我从html, css开始, 然后是Javascript我专注于制作许多项目和网页以提高我的逻辑和美学, 之后我100%专注于Javascript ，到目前为止，我就是通过这种方式学到了很多关于这门语言的知识。."
+    },
+
+    "menu": {
+        "idiomas": "语言",
+        "tecnologias": "技术",
+        "proyectos": "项目",
+        "contactame": "联络我"
+    },
+
+    "sectionIdiomas": {
+        "title": "语言",
+
+        "EnTitleEn": "英语 (A2)",
+        "descripcionEn": "具备语言基础知识；我能够理解常用的短语和表达方式，例如日常工作和简单任务中的职业和交流。",
+
+        "EnTitleCh": "普通话 中文 (HSK2)",
+        "descripcionCh": "拥有2年语言；我的表现处于中等水平，保持基本而扎实的对话，这对我了解这个国家的文化及其语法结构有很大帮助。"
+    },
+
+    "tecnologias": {
+        "title":"技术"
+    },
+
+    "proyectos": {
+        "title": "项目",
+        
+        "itemTitle1": "一家文具店的网站。",
+        "descripcion1": "创建这个网站帮助我提高了对移动优先和 CSS 的了解；我在使用 flex 时遇到了一些问题，但感谢 stack Overflow 及其文档，我设法解决了这些问题。",
+
+        "itemTitle2": "计算器",
+        "descripcion2": "通过这个项目，我巩固了很多 Javascript 以及 DOM 操作和函数管理方面的知识。",
+
+        "itemTitle3": "随机小狗网站",
+        "descripcion3": "在这个项目中，我学到了很多关于异步和等待、使用 fetch 的 API 消耗及其 HTTP 方法: GET、POST、DELETE、PUT 和 PACTH。",
+
+        "itemTitle4": "使用权",
+        "descripcion4": "这次登录是使用 100% CSS 完成的，我用它来磨练我的设计技能，制作一些效果和字体更改。"
+       
+    },
+
+    "redesYContactos": {
+        "title":"我的网络和联系人"
+    }
+}

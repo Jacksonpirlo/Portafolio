@@ -1,0 +1,54 @@
+{
+    "navbar": {
+        "title":"Idiomas"
+    },
+
+    "Profile": {
+        "nombre":"Hola! Soy Jackson Florez",
+        "rol": "Desarrollador web (Front-end JR)",
+        "title":"Sobre mí",
+        "descripcion":"Hola! Pues te cuento... Empecé en el desarrollo web hace un año comenzando con html, css y luego Javascript; Me enfoque en realizar muchos proyectos y paginas web para mejorar mi logica y estetica, despues de eso me centré al 100% con Javascript y asi logré aprender mucho sobre el lenguaje hasta el momento."
+    },
+
+    "menu": {
+        "idiomas": "Idiomas",
+        "tecnologias": "Tecnologias",
+        "proyectos": "Proyectos",
+        "contactame": "Contactame"
+    },
+
+    "sectionIdiomas": {
+        "title": "Idiomas",
+
+        "EnTitleEn": "Ingles (A2)",
+        "descripcionEn": "Con conocimientos básicos del idioma; Soy capaz de comprender frases y expresiones de uso frecuente, como ocupación y comunicación en tareas rutinarias y sencillas.",
+
+        "EnTitleCh": "Chino (HSK2)",
+        "descripcionCh": "Con 2 años el idioma; Me desempeño en un nivel intermedio, manteniendo una conversación básica y sólida, esto me ha ayudado mucho en la comprensión y cultura del país así como su estructura gramatical."
+    },
+
+    "tecnologias": {
+        "title":"Tecnologías"
+    },
+
+    "proyectos": {
+        "title": "Proyectos",
+        
+        "itemTitle1": "Pagina web de una papelería",
+        "descripcion1": "Crear este sitio web me ayudó a mejorar mis conocimientos tanto en mobil-first como en CSS; Tuve algunos problemas al usar flex, pero gracias a stack Overflow y su documentación logré solucionar estos problemas.",
+
+        "itemTitle2": "Calculadora",
+        "descripcion2": "Con este proyecto reforcé muchos de mis conocimientos en Javascript así como manipulación DOM y gestión de funciones.",
+
+        "itemTitle3": "Pagina web de perritos aleatorios",
+        "descripcion3": "En este proyecto aprendí mucho sobre async y await, consumo de APIs con fetch y sus metodos HTTP: GET, POST, DELETE, PUT y PACTH",
+
+        "itemTitle4": "Login",
+        "descripcion4": "Este login fue con 100% css los hice para pulir mis conocimientos en maquetación, haciendo algunos efectos y cambios de letra."
+       
+    },
+
+    "redesYContactos": {
+        "title":"Mis redes y contactos"
+    }
+}

@@ -1,0 +1,62 @@
+{
+    "navbar": {
+        "title":"Languages"
+    },
+
+    "Profile": {
+        "nombre":"Hello! I'm Jackson Flores",
+        "rol": "Web Developer (Front-end JR)",
+        "title":"About me",
+        "descripcion":"Hello! Well, I'll tell you... I started in web development a year ago starting with html, css and then Javascript; I focused on creating many projects and web pages to improve my logic and aesthetics, after that I focused 100% on Javascript and thus managed to learn a lot about the language so far."
+    },
+
+    "menu": {
+        "idiomas": "Languages",
+        "tecnologias": "Technologies",
+        "proyectos": "Projects",
+        "contactame": "Contact me"
+    },
+
+    "sectionIdiomas": {
+        "title": "Languages",
+
+        "EnTitleEn": "English (A2)",
+        "descripcionEn": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo velit fugiat ducimus nemo amet necessitatibus. Minus rerum laborum perferend",
+
+        "EnTitleCh": "Chinese (HSK2)",
+        "descripcionCh": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo velit fugiat ducimus nemo amet necessitatibus. Minus rerum laborum perferend"
+    },
+
+    "tecnologias": {
+        "title":"Technologies"
+    },
+
+    "proyectos": {
+
+        "title": "Projects",
+
+       "proyecto1": {
+        "itemTitle": "project1",
+        "descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti dolorum illum, vero modi tenetur nisi placeat eveniet fugiat id aperiam quaerat. Lenguajes"
+       }, 
+
+       "proyecto2": {
+        "itemTitle": "project1",
+        "descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti dolorum illum, vero modi tenetur nisi placeat eveniet fugiat id aperiam quaerat. Lenguajes"
+       },
+
+       "proyecto3": {
+        "itemTitle": "project1",
+        "descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti dolorum illum, vero modi tenetur nisi placeat eveniet fugiat id aperiam quaerat. Lenguajes"
+       },
+
+       "proyecto4": {
+        "itemTitle": "project1",
+        "descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti dolorum illum, vero modi tenetur nisi placeat eveniet fugiat id aperiam quaerat. Lenguajes"
+       }
+    },
+
+    "redesYContactos": {
+        "title":"My networks and contacts"
+    }
+}

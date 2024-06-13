@@ -1,0 +1,54 @@
+{
+    "navbar": {
+        "title":"Languages"
+    },
+
+    "Profile": {
+        "nombre":"Hello! I'm Jackson Flores",
+        "rol": "Web Developer (Front-end JR)",
+        "title":"About me",
+        "descripcion":"Hello! Well, I'll tell you... I started in web development a year ago starting with html, css and then Javascript; I focused on creating many projects and web pages to improve my logic and aesthetics, after that I focused 100% on Javascript and thus managed to learn a lot about the language so far."
+    },
+
+    "menu": {
+        "idiomas": "Languages",
+        "tecnologias": "Technologies",
+        "proyectos": "Projects",
+        "contactame": "Contact me"
+    },
+
+    "sectionIdiomas": {
+        "title": "Languages",
+
+        "EnTitleEn": "English (A2)",
+        "descripcionEn": "With basic knowledge of the language; I am able to understand frequently used phrases and expressions, such as occupation and communication in routine and simple tasks.",
+
+        "EnTitleCh": "Chinese (HSK2)",
+        "descripcionCh": "With 2 years the language; I perform at an intermediate level, maintaining a basic and solid conversation, this has helped me a lot in understanding and culture of the country as well as its grammatical structure."
+    },
+
+    "tecnologias": {
+        "title":"Technologies"
+    },
+
+    "proyectos": {
+        "title": "Proyectos",
+        
+        "itemTitle1": "stationery website",
+        "descripcion1": "Creating this website helped me improve my knowledge of both mobil-first and CSS; I had some problems using flex, but thanks to stack Overflow and its documentation I managed to solve these problems.",
+
+        "itemTitle2": "Calculator",
+        "descripcion2": " With this project I reinforced many of my knowledge in Javascript as well as DOM manipulation and function management.",
+
+        "itemTitle3": "Random Puppies Website.",
+        "descripcion3": "In this project I learned a lot about async and await, consumption of APIs with fetch and their HTTP methods: GET, POST, DELETE, PUT and PACTH",
+
+        "itemTitle4": "Proyecto 4",
+        "descripcion4": "This login was with 100% CSS, I made it to polish my knowledge in layout, making some effects and font changes."
+       
+    },
+
+    "redesYContactos": {
+        "title":"My networks and contacts"
+    }
+}

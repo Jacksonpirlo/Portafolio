@@ -1,0 +1,62 @@
+{
+    "navbar": {
+        "title":"语言"
+    },
+
+    "Profile": {
+        "nombre":"您好我是 Jackson Florez",
+        "rol": "网页开发人员（前端 JR)",
+        "title":"关于我",
+        "descripcion":"你好！好吧，让我告诉你......我一年前开始做Web开发, 我从html, css开始, 然后是Javascript我专注于制作许多项目和网页以提高我的逻辑和美学, 之后我100%专注于Javascript ，到目前为止，我就是通过这种方式学到了很多关于这门语言的知识。."
+    },
+
+    "menu": {
+        "idiomas": "语言",
+        "tecnologias": "技术",
+        "proyectos": "项目",
+        "contactame": "联络我"
+    },
+
+    "sectionIdiomas": {
+       "title": "语言",
+
+        "EnTitleEn": "英语 (A2)",
+        "descripcionEn": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo velit fugiat ducimus nemo amet necessitatibus. Minus rerum laborum perferend",
+
+        "EnTitleCh": "普通话 中文 (HSK2)",
+        "descripcionCh": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo velit fugiat ducimus nemo amet necessitatibus. Minus rerum laborum perferend"
+    },
+
+    "tecnologias": {
+        "title":"技术"
+    },
+
+    "proyectos": {
+
+        "title": "项目",
+
+       "proyecto1": {
+        "itemTitle": "Proyecto 1",
+        "descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti dolorum illum, vero modi tenetur nisi placeat eveniet fugiat id aperiam quaerat. Lenguajes"
+       }, 
+
+       "proyecto2": {
+        "itemTitle": "Proyecto 2",
+        "descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti dolorum illum, vero modi tenetur nisi placeat eveniet fugiat id aperiam quaerat. Lenguajes"
+       },
+
+       "proyecto3": {
+        "itemTitle": "Proyecto 3",
+        "descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti dolorum illum, vero modi tenetur nisi placeat eveniet fugiat id aperiam quaerat. Lenguajes"
+       },
+
+       "proyecto4": {
+        "itemTitle": "Proyecto 4",
+        "descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti dolorum illum, vero modi tenetur nisi placeat eveniet fugiat id aperiam quaerat. Lenguajes"
+       }
+    },
+
+    "redesYContactos": {
+        "title":"我的网络和联系人"
+    }
+}
